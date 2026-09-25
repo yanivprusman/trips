@@ -1,0 +1,7 @@
+{
+  "description": "טיולים — every trip you take, drawn on a hiking map that works with no signal: the marked route, where you are on it, what is ahead, and the climb",
+  "icon": "Mountain",
+  "sharedLibs": [
+    "android-feedback-lib"
+  ]
+}

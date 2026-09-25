@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="openstreetmap-cgimap 2.1.0 (2942785 spike-08.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+ <node id="1688823551" visible="true" version="2" changeset="134813606" timestamp="2023-04-12T11:56:04Z" user="zstadler" uid="3127" lat="30.8447167" lon="34.7748594"/>
+ <node id="1688823557" visible="true" version="2" changeset="181014366" timestamp="2026-04-07T18:16:15Z" user="Tsur Halamish" uid="5556216" lat="30.8461638" lon="34.7750207"/>
+ <node id="2449873144" visible="true" version="2" changeset="181014366" timestamp="2026-04-07T18:16:15Z" user="Tsur Halamish" uid="5556216" lat="30.8535183" lon="34.7700996"/>
+ <node id="2449873150" visible="true" version="1" changeset="17723790" timestamp="2013-09-07T20:50:44Z" user="Ilya Kogan" uid="280322" lat="30.8536191" lon="34.7701603"/>
+ <node id="2449873152" visible="true" version="1" changeset="17723790" timestamp="2013-09-07T20:50:44Z" user="Ilya Kogan" uid="280322" lat="30.8539185" lon="34.7705680"/>
+ <node id="2449873154" visible="true" version="3" changeset="181014366" timestamp="2026-04-07T18:16:15Z" user="Tsur Halamish" uid="5556216" lat="30.8526335" lon="34.7707507"/>
+ <node id="2449873157" visible="true" version="1" changeset="17723790" timestamp="2013-09-07T20:50:44Z" user="Ilya Kogan" uid="280322" lat="30.8511829" lon="34.7722202"/>
+ <node id="2449873159" visible="true" version="1" changeset="17723790" timestamp="2013-09-07T20:50:44Z" user="Ilya Kogan" uid="280322" lat="30.8509527" lon="34.7722846"/>
+ <node id="2449873162" visible="true" version="1" changeset="17723790" timestamp="2013-09-07T20:50:44Z" user="Ilya Kogan" uid="280322" lat="30.8527119" lon="34.7705626"/>
+ <node id="2449873164" visible="true" version="1" changeset="17723790" timestamp="2013-09-07T20:50:44Z" user="Ilya Kogan" uid="280322" lat="30.8527165" lon="34.7704231"/>
+ <node id="2449873168" visible="true" version="1" changeset="17723790" timestamp="2013-09-07T20:50:44Z" user="Ilya Kogan" uid="280322" lat="30.8513262" lon="34.7722057"/>
+ <node id="2449873170" visible="true" version="1" changeset="17723790" timestamp="2013-09-07T20:50:44Z" user="Ilya Kogan" uid="280322" lat="30.8514915" lon="34.7722846"/>
+ <node id="2449873172" visible="true" version="3" changeset="181014366" timestamp="2026-04-07T18:16:15Z" user="Tsur Halamish" uid="5556216" lat="30.8525395" lon="34.7709407"/>
+ <node id="2449873174" visible="true" version="1" changeset="17723790" timestamp="2013-09-07T20:50:45Z" user="Ilya Kogan" uid="280322" lat="30.8522007" lon="34.7717857"/>
+ <node id="2449873179" visible="true" version="2" changeset="181014366" timestamp="2026-04-07T18:16:15Z" user="Tsur Halamish" uid="5556216" lat="30.8527573" lon="34.7703504"/>
+ <node id="2449873185" visible="true" version="2" changeset="181014366" timestamp="2026-04-07T18:16:15Z" user="Tsur Halamish" uid="5556216" lat="30.8528364" lon="34.7702122"/>
+ <node id="2449873187" visible="true" version="1" changeset="17723790" timestamp="2013-09-07T20:50:45Z" user="Ilya Kogan" uid="280322" lat="30.8516158" lon="34.7722470"/>
+ <node id="2449873189" visible="true" version="2" changeset="181014366" timestamp="2026-04-07T18:16:15Z" user="Tsur Halamish" uid="5556216" lat="30.8502376" lon="34.7733746"/>
+ <node id="2449873191" visible="true" version="2" changeset="181014366" timestamp="2026-04-07T18:16:15Z" user="Tsur Halamish" uid="5556216" lat="30.8526074" lon="34.7711326"/>
+ <node id="2449873193" visible="true" version="1" changeset="17723790" timestamp="2013-09-07T20:50:45Z" user="Ilya Kogan" uid="280322" lat="30.8529283" lon="34.7701227"/>
+ <node id="2449873195" visible="true" version="2" changeset="146282757" timestamp="2024-01-15T13:35:19Z" user="zstadler" uid="3127" lat="30.8533765" lon="34.7698947"/>
+ <node id="2449873197" visible="true" version="2" changeset="181014366" timestamp="2026-04-07T18:16:15Z" user="Tsur Halamish" uid="5556216" lat="30.8506865" lon="34.7727242"/>
+ <node id="2449873199" visible="true" version="1" changeset="17723790" timestamp="2013-09-07T20:50:45Z" user="Ilya Kogan" uid="280322" lat="30.8503544" lon="34.7731767"/>
+ <node id="2449873201" visible="true" version="1" changeset="17723790" timestamp="2013-09-07T20:50:45Z" user="Ilya Kogan" uid="280322" lat="30.8517264" lon="34.7721236"/>
+ <node id="2449873203" visible="true" version="2" changeset="146282757" timestamp="2024-01-15T13:35:19Z" user="zstadler" uid="3127" lat="30.8531437" lon="34.7700340"/>
+ <node id="2449873205" visible="true" version="1" changeset="17723790" timestamp="2013-09-07T20:50:45Z" user="Ilya Kogan" uid="280322" lat="30.8523527" lon="34.7712224"/>
+ <node id="2449873208" visible="true" version="1" changeset="17723790" timestamp="2013-09-07T20:50:45Z" user="Ilya Kogan" uid="280322" lat="30.8505382" lon="34.7728747"/>
+ <node id="2449873209" visible="true" version="2" changeset="146282757" timestamp="2024-01-15T13:35:19Z" user="zstadler" uid="3127" lat="30.8532612" lon="34.7699961"/>
+ <node id="2449873210" visible="true" version="2" changeset="181014366" timestamp="2026-04-07T18:16:15Z" user="Tsur Halamish" uid="5556216" lat="30.8518185" lon="34.7720180"/>
+ <node id="2449873211" visible="true" version="2" changeset="181014366" timestamp="2026-04-07T18:16:15Z" user="Tsur Halamish" uid="5556216" lat="30.8520628" lon="34.7718925"/>
+ <node id="2449873212" visible="true" version="1" changeset="17723790" timestamp="2013-09-07T20:50:45Z" user="Ilya Kogan" uid="280322" lat="30.8508375" lon="34.7724294"/>
+ <node id="2449873213" visible="true" version="2" changeset="181014366" timestamp="2026-04-07T18:16:15Z" user="Tsur Halamish" uid="5556216" lat="30.8519332" lon="34.7719510"/>
+ <node id="2449873214" visible="true" version="1" changeset="17723790" timestamp="2013-09-07T20:50:45Z" user="Ilya Kogan" uid="280322" lat="30.8534441" lon="34.7700369"/>
+ <node id="2727691752" visible="true" version="2" changeset="181014366" timestamp="2026-04-07T18:16:15Z" user="Tsur Halamish" uid="5556216" lat="30.8464952" lon="34.7751254"/>
+ <node id="2727691754" visible="true" version="2" changeset="181014366" timestamp="2026-04-07T18:16:15Z" user="Tsur Halamish" uid="5556216" lat="30.8467375" lon="34.7742184"/>
+ <node id="2727691756" visible="true" version="1" changeset="21200536" timestamp="2014-03-19T21:31:04Z" user="dimka" uid="254593" lat="30.8466614" lon="34.7739957"/>
+ <node id="2727691757" visible="true" version="2" changeset="181014366" timestamp="2026-04-07T18:16:15Z" user="Tsur Halamish" uid="5556216" lat="30.8467416" lon="34.7750422"/>
+ <node id="2727691759" visible="true" version="2" changeset="181014366" timestamp="2026-04-07T18:16:15Z" user="Tsur Halamish" uid="5556216" lat="30.8468716" lon="34.7748681"/>
+ <node id="2727691760" visible="true" version="2" changeset="181014366" timestamp="2026-04-07T18:16:15Z" user="Tsur Halamish" uid="5556216" lat="30.8469634" lon="34.7737679"/>
+ <node id="2727691762" visible="true" version="2" changeset="181014366" timestamp="2026-04-07T18:16:15Z" user="Tsur Halamish" uid="5556216" lat="30.8472548" lon="34.7734652"/>
+ <node id="2727691763" visible="true" version="2" changeset="181014366" timestamp="2026-04-07T18:16:15Z" user="Tsur Halamish" uid="5556216" lat="30.8474248" lon="34.7732677"/>
+ <node id="2727691765" visible="true" version="2" changeset="181014366" timestamp="2026-04-07T18:16:15Z" user="Tsur Halamish" uid="5556216" lat="30.8479611" lon="34.7732159"/>
+ <node id="2727691766" visible="true" version="2" changeset="181014366" timestamp="2026-04-07T18:16:15Z" user="Tsur Halamish" uid="5556216" lat="30.8482191" lon="34.7730560"/>
+ <node id="2727691768" visible="true" version="2" changeset="181014366" timestamp="2026-04-07T18:16:15Z" user="Tsur Halamish" uid="5556216" lat="30.8486398" lon="34.7728506"/>
+ <node id="2727691769" visible="true" version="2" changeset="181014366" timestamp="2026-04-07T18:16:15Z" user="Tsur Halamish" uid="5556216" lat="30.8488999" lon="34.7728301"/>
+ <node id="2727691771" visible="true" version="2" changeset="181014366" timestamp="2026-04-07T18:16:15Z" user="Tsur Halamish" uid="5556216" lat="30.8491478" lon="34.7729573"/>
+ <node id="2727691772" visible="true" version="2" changeset="181014366" timestamp="2026-04-07T18:16:15Z" user="Tsur Halamish" uid="5556216" lat="30.8494973" lon="34.7730188"/>
+ <node id="2727691774" visible="true" version="2" changeset="181014366" timestamp="2026-04-07T18:16:15Z" user="Tsur Halamish" uid="5556216" lat="30.8498856" lon="34.7732311"/>
+ <node id="4775417506" visible="true" version="3" changeset="134813606" timestamp="2023-04-12T11:56:04Z" user="zstadler" uid="3127" lat="30.8540312" lon="34.7705888"/>
+ <node id="13714478262" visible="true" version="1" changeset="181014366" timestamp="2026-04-07T18:16:15Z" user="Tsur Halamish" uid="5556216" lat="30.8522292" lon="34.7713165"/>
+ <node id="13714478263" visible="true" version="1" changeset="181014366" timestamp="2026-04-07T18:16:15Z" user="Tsur Halamish" uid="5556216" lat="30.8497690" lon="34.7731690"/>
+ <node id="13714478264" visible="true" version="1" changeset="181014366" timestamp="2026-04-07T18:16:15Z" user="Tsur Halamish" uid="5556216" lat="30.8492540" lon="34.7728925"/>
+ <node id="13714478265" visible="true" version="1" changeset="181014366" timestamp="2026-04-07T18:16:15Z" user="Tsur Halamish" uid="5556216" lat="30.8477585" lon="34.7733199"/>
+ <node id="13714478266" visible="true" version="1" changeset="181014366" timestamp="2026-04-07T18:16:15Z" user="Tsur Halamish" uid="5556216" lat="30.8470689" lon="34.7737148"/>
+ <node id="13714478267" visible="true" version="1" changeset="181014366" timestamp="2026-04-07T18:16:15Z" user="Tsur Halamish" uid="5556216" lat="30.8468456" lon="34.7745174"/>
+ <node id="13714478268" visible="true" version="1" changeset="181014366" timestamp="2026-04-07T18:16:15Z" user="Tsur Halamish" uid="5556216" lat="30.8450681" lon="34.7749393"/>
+ <way id="156647457" visible="true" version="7" changeset="181014366" timestamp="2026-04-07T18:16:15Z" user="Tsur Halamish" uid="5556216">
+  <nd ref="2449873189"/>
+  <nd ref="2727691774"/>
+  <nd ref="13714478263"/>
+  <nd ref="2727691772"/>
+  <nd ref="13714478264"/>
+  <nd ref="2727691771"/>
+  <nd ref="2727691769"/>
+  <nd ref="2727691768"/>
+  <nd ref="2727691766"/>
+  <nd ref="2727691765"/>
+  <nd ref="13714478265"/>
+  <nd ref="2727691763"/>
+  <nd ref="2727691762"/>
+  <nd ref="13714478266"/>
+  <nd ref="2727691760"/>
+  <nd ref="2727691756"/>
+  <nd ref="2727691754"/>
+  <nd ref="13714478267"/>
+  <nd ref="2727691759"/>
+  <nd ref="2727691757"/>
+  <nd ref="2727691752"/>
+  <nd ref="1688823557"/>
+  <nd ref="13714478268"/>
+  <nd ref="1688823551"/>
+  <tag k="colour" v="green"/>
+  <tag k="highway" v="path"/>
+ </way>
+ <way id="929186435" visible="true" version="4" changeset="181014366" timestamp="2026-04-07T18:16:15Z" user="Tsur Halamish" uid="5556216">
+  <nd ref="4775417506"/>
+  <nd ref="2449873152"/>
+  <nd ref="2449873150"/>
+  <nd ref="2449873144"/>
+  <nd ref="2449873214"/>
+  <nd ref="2449873195"/>
+  <nd ref="2449873209"/>
+  <nd ref="2449873203"/>
+  <nd ref="2449873193"/>
+  <nd ref="2449873185"/>
+  <nd ref="2449873179"/>
+  <nd ref="2449873164"/>
+  <nd ref="2449873162"/>
+  <nd ref="2449873154"/>
+  <nd ref="2449873172"/>
+  <nd ref="2449873191"/>
+  <nd ref="2449873205"/>
+  <nd ref="13714478262"/>
+  <nd ref="2449873174"/>
+  <nd ref="2449873211"/>
+  <nd ref="2449873213"/>
+  <nd ref="2449873210"/>
+  <nd ref="2449873201"/>
+  <nd ref="2449873187"/>
+  <nd ref="2449873170"/>
+  <nd ref="2449873168"/>
+  <nd ref="2449873157"/>
+  <nd ref="2449873159"/>
+  <nd ref="2449873212"/>
+  <nd ref="2449873197"/>
+  <nd ref="2449873208"/>
+  <nd ref="2449873199"/>
+  <nd ref="2449873189"/>
+  <tag k="colour" v="green"/>
+  <tag k="highway" v="footway"/>
+ </way>
+ <relation id="3438295" visible="true" version="10" changeset="189416284" timestamp="2026-09-22T19:07:24Z" user="hatul" uid="686490">
+  <member type="way" ref="929186435" role=""/>
+  <member type="way" ref="156647457" role=""/>
+  <tag k="description" v="נחל קרקש הוא ערוץ מדברי קצר ומרהיב היורד משולי מדרשת בן גוריון לעבר נחל צין שבהר הנגב. המסלול נחשב לאחד היפים והקלים באזור שדה בוקר, והוא מתאים מאוד לטיולי משפחות הודות לאורכו הקצר ולמגמת הירידה הנוחה שלו."/>
+  <tag k="description:en" v="A short and spectacular desert stream, descending from Midreshet Ben Gurion towards Nahal Havarom and then Tzin in the Negev Mountains. The route is one of the most beautiful and easy in the Sde Boker area, suitable for family hikes."/>
+  <tag k="description:he" v="נחל קרקש הוא ערוץ מדברי קצר ומרהיב היורד משולי מדרשת בן גוריון לעבר נחל צין שבהר הנגב. המסלול נחשב לאחד היפים והקלים באזור שדה בוקר, והוא מתאים מאוד לטיולי משפחות הודות לאורכו הקצר ולמגמת הירידה הנוחה שלו."/>
+  <tag k="image" v="https://upload.wikimedia.org/wikipedia/commons/4/4c/Mapeak_Karkash_Stream.jpeg"/>
+  <tag k="image1" v="https://upload.wikimedia.org/wikipedia/commons/1/1f/Mapeak_Karkash_Stream_1.jpeg"/>
+  <tag k="image2" v="https://upload.wikimedia.org/wikipedia/commons/5/56/Mapeak_Karkash_Stream_2.jpeg"/>
+  <tag k="image3" v="https://upload.wikimedia.org/wikipedia/commons/d/dd/Mapeak_Karkash_Stream_3.jpeg"/>
+  <tag k="image4" v="https://upload.wikimedia.org/wikipedia/commons/f/f7/Mapeak_Karkash_Stream_4.jpeg"/>
+  <tag k="name" v="נחל קרקש"/>
+  <tag k="name:en" v="Karkash Stream"/>
+  <tag k="name:he" v="נחל קרקש"/>
+  <tag k="network" v="lwn"/>
+  <tag k="operator" v="itc"/>
+  <tag k="osmc:symbol" v="green:white:green_stripe"/>
+  <tag k="route" v="hiking"/>
+  <tag k="type" v="route"/>
+  <tag k="website" v="https://baliletayel.co.il/israeltrip/נחל-קרקש-מסלול-מהנה-מתחת-למדרשת-בן-גור/"/>
+ </relation>
+</osm>

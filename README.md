@@ -1,34 +1,41 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# טיולים · trips
 
-## Getting Started
+A native Android app (Kotlin Multiplatform + Compose, MapLibre) that draws a trip's marked
+route on the Israel Hiking Map and reads it out as you walk: how far you have come, what is
+next, the climb still ahead. **The map and the trips ship inside the APK** — a wadi is
+exactly where there is no signal.
 
-First, run the development server:
+The Next.js app in this repo is only the feedback-lib backend (dev port 3157).
+
+## Layout
+
+- `mobile/` — the phone app. `shared/commonMain` holds everything that is not a platform
+  API: the trip model, route geometry + progress (`geo/`), Hebrew formatting, the theme
+  tokens and every screen. `app/` is the Android launcher: MapLibre (`ui/map/`),
+  `LocationManager` (`location/`), the asset repository, Hilt, and feedback-lib in the dev
+  flavor.
+- `mobile/app/src/main/assets/`
+  - `trips/<id>.json` — one file per trip, **generated** by `scripts/build-trip-<id>.py`.
+  - `tiles/{z}/{x}/{y}.png` — the Israel Hiking Map raster pack for the trip area
+    (z12–16; the server has no z17). `assets/style.json` layers the pack under the same
+    tiles fetched online.
+  - `photos/` — 1400-px JPEGs the trip file names.
+- `data/<id>/` — the raw inputs the generator reads (OSM geometry, elevation samples,
+  the tile manifest). Recipe in `data/karakash/README.md`.
+
+## Build / install
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+cd mobile && ./gradlew :app:assembleDevDebug
+/opt/automateLinux/utilities/chunked-adb-install.sh app/build/outputs/apk/dev/debug/app-dev-debug.apk 10.7.0.3:5555 com.automatelinux.trips.dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Never raw `adb install` over WireGuard. `mobile/.env` → `API_BASE_URL=http://10.7.0.2:3157/`.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Adding a trip
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. Put the route geometry + elevation under `data/<id>/`, write `scripts/build-trip-<id>.py`
+   (copy the karakash one — waypoints, text and the practical cards live in the script).
+2. Fetch the tile pack for its area into `assets/tiles/` and widen the `bounds` in
+   `assets/style.json` if the area is new.
+3. Run the script; the app lists whatever is in `assets/trips/`.

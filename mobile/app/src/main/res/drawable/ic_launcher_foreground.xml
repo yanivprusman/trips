@@ -1,5 +1,13 @@
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
     android:width="108dp" android:height="108dp" android:viewportWidth="108" android:viewportHeight="108">
-    <path android:fillColor="#FFFFFF" android:pathData="M38,38 h32 a6,6 0 0 1 6,6 v20 a6,6 0 0 1 -6,6 h-32 a6,6 0 0 1 -6,-6 v-20 a6,6 0 0 1 6,-6 z" />
-    <path android:fillColor="#B2DFDB" android:pathData="M46,48 h16 v4 h-16 z M46,56 h16 v4 h-16 z" />
+    <!-- A trail blaze painted on a rock: white–green–white, the mark every Israeli walker follows. -->
+    <path android:fillColor="#1F1A1533" android:pathData="M28,78 a26,7 0 1 0 52,0 a26,7 0 1 0 -52,0 z" />
+    <path android:fillColor="#9C6F48" android:pathData="M29,60 C27,48 34,35 48,31 C61,27 76,31 82,44 C88,57 82,73 67,78 C54,83 37,80 29,60 Z" />
+    <path android:fillColor="#B4875C" android:pathData="M33,56 C33,46 40,37 50,34 C60,31 71,34 76,43 C78,47 78,51 76,52 C66,46 52,46 40,54 C36,57 34,58 33,56 Z" />
+    <path android:fillColor="#7E5636" android:pathData="M31,64 C40,72 58,76 70,72 C76,70 80,66 82,60 C82,68 76,76 66,78 C54,82 38,79 31,64 Z" />
+    <group android:rotation="-8" android:pivotX="54" android:pivotY="54">
+        <path android:fillColor="#FFFFFF" android:pathData="M39,40 h30 a2,2 0 0 1 2,2 v5 a2,2 0 0 1 -2,2 h-30 a2,2 0 0 1 -2,-2 v-5 a2,2 0 0 1 2,-2 z" />
+        <path android:fillColor="#1F9A3E" android:pathData="M39,50 h30 a2,2 0 0 1 2,2 v5 a2,2 0 0 1 -2,2 h-30 a2,2 0 0 1 -2,-2 v-5 a2,2 0 0 1 2,-2 z" />
+        <path android:fillColor="#FFFFFF" android:pathData="M39,60 h30 a2,2 0 0 1 2,2 v5 a2,2 0 0 1 -2,2 h-30 a2,2 0 0 1 -2,-2 v-5 a2,2 0 0 1 2,-2 z" />
+    </group>
 </vector>

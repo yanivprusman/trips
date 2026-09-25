@@ -1,0 +1,36 @@
+{
+  "version": 8,
+  "name": "trips-israel-hiking-map",
+  "sources": {
+    "ihm-bundled-wide": {
+      "type": "raster",
+      "tiles": ["asset://tiles/{z}/{x}/{y}.png"],
+      "tileSize": 256,
+      "minzoom": 12,
+      "maxzoom": 14,
+      "bounds": [34.70, 30.78, 34.87, 30.92]
+    },
+    "ihm-bundled": {
+      "type": "raster",
+      "tiles": ["asset://tiles/{z}/{x}/{y}.png"],
+      "tileSize": 256,
+      "minzoom": 12,
+      "maxzoom": 16,
+      "bounds": [34.756, 30.834, 34.796, 30.864]
+    },
+    "ihm-online": {
+      "type": "raster",
+      "tiles": ["https://israelhiking.osm.org.il/Hebrew/Tiles/{z}/{x}/{y}.png"],
+      "tileSize": 256,
+      "minzoom": 7,
+      "maxzoom": 16,
+      "attribution": "© OpenStreetMap contributors · Israel Hiking Map"
+    }
+  },
+  "layers": [
+    { "id": "background", "type": "background", "paint": { "background-color": "#ECE5D6" } },
+    { "id": "ihm-bundled-wide", "type": "raster", "source": "ihm-bundled-wide", "paint": { "raster-fade-duration": 0 } },
+    { "id": "ihm-bundled", "type": "raster", "source": "ihm-bundled", "paint": { "raster-fade-duration": 0 } },
+    { "id": "ihm-online", "type": "raster", "source": "ihm-online", "paint": { "raster-fade-duration": 0 } }
+  ]
+}

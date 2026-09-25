@@ -24,3 +24,4 @@ includeBuild("build-logic")
 rootProject.name = "trips"
 include(":shared")
 include(":app")
+include(":feedback-lib")
